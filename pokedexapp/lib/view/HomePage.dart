@@ -19,41 +19,191 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Center(
           child: Text(
             widget.title,
-            style: TextStyle(color: widget.textColor, fontSize: 24),
+            style: TextStyle(color: widget.textColor, fontSize: 28),
           ),
         ),
       ),
       body: Center(
-        child: Row(
+        child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            OutlinedButton(
-                onPressed: () {},
-                style: OutlinedButton.styleFrom(
-                    side: BorderSide(color: widget.textColor),
-                    fixedSize: const Size(120, 80),
-                    shape: const RoundedRectangleBorder(
-                      borderRadius: BorderRadius.all(Radius.circular(14)),
-                    )),
-                child: Text(
-                  'All Gens',
-                  style: TextStyle(color: widget.textColor, fontSize: 18),
-                )),
-            const SizedBox(
-              width: 14,
+            Padding(
+                padding: const EdgeInsets.all(6),
+                child: Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: <Widget>[
+                      OutlinedButton(
+                          onPressed: () {},
+                          style: OutlinedButton.styleFrom(
+                              side: BorderSide(color: widget.textColor),
+                              fixedSize: const Size(130, 80),
+                              shape: const RoundedRectangleBorder(
+                                borderRadius:
+                                    BorderRadius.all(Radius.circular(14)),
+                              )),
+                          child: Text(
+                            'All Gens',
+                            style: TextStyle(
+                                color: widget.textColor, fontSize: 20),
+                          )),
+                      const SizedBox(
+                        width: 14,
+                      ),
+                      OutlinedButton(
+                          onPressed: () {},
+                          style: OutlinedButton.styleFrom(
+                              side: BorderSide(color: widget.textColor),
+                              fixedSize: const Size(130, 80),
+                              shape: const RoundedRectangleBorder(
+                                borderRadius:
+                                    BorderRadius.all(Radius.circular(14)),
+                              )),
+                          child: Text(
+                            'Gen 1',
+                            style: TextStyle(
+                                color: widget.textColor, fontSize: 20),
+                          )),
+                    ])),
+            Padding(
+              padding: const EdgeInsets.all(6.0),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: <Widget>[
+                  OutlinedButton(
+                      onPressed: () {},
+                      style: OutlinedButton.styleFrom(
+                          side: BorderSide(color: widget.textColor),
+                          fixedSize: const Size(130, 80),
+                          shape: const RoundedRectangleBorder(
+                            borderRadius: BorderRadius.all(Radius.circular(14)),
+                          )),
+                      child: Text(
+                        'Gen 2',
+                        style: TextStyle(color: widget.textColor, fontSize: 20),
+                      )),
+                  const SizedBox(
+                    width: 14,
+                  ),
+                  OutlinedButton(
+                      onPressed: () {},
+                      style: OutlinedButton.styleFrom(
+                          side: BorderSide(color: widget.textColor),
+                          fixedSize: const Size(130, 80),
+                          shape: const RoundedRectangleBorder(
+                            borderRadius: BorderRadius.all(Radius.circular(14)),
+                          )),
+                      child: Text(
+                        'Gen 3',
+                        style: TextStyle(color: widget.textColor, fontSize: 20),
+                      )),
+                ],
+              ),
             ),
-            OutlinedButton(
-                onPressed: () {},
-                style: OutlinedButton.styleFrom(
-                    side: BorderSide(color: widget.textColor),
-                    fixedSize: const Size(120, 80),
-                    shape: const RoundedRectangleBorder(
-                      borderRadius: BorderRadius.all(Radius.circular(14)),
-                    )),
-                child: Text(
-                  'Gen 1',
-                  style: TextStyle(color: widget.textColor, fontSize: 18),
-                )),
+            Padding(
+              padding: const EdgeInsets.all(6.0),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: <Widget>[
+                  OutlinedButton(
+                      onPressed: () {},
+                      style: OutlinedButton.styleFrom(
+                          side: BorderSide(color: widget.textColor),
+                          fixedSize: const Size(130, 80),
+                          shape: const RoundedRectangleBorder(
+                            borderRadius: BorderRadius.all(Radius.circular(14)),
+                          )),
+                      child: Text(
+                        'Gen 4',
+                        style: TextStyle(color: widget.textColor, fontSize: 20),
+                      )),
+                  const SizedBox(
+                    width: 14,
+                  ),
+                  OutlinedButton(
+                      onPressed: () {},
+                      style: OutlinedButton.styleFrom(
+                          side: BorderSide(color: widget.textColor),
+                          fixedSize: const Size(130, 80),
+                          shape: const RoundedRectangleBorder(
+                            borderRadius: BorderRadius.all(Radius.circular(14)),
+                          )),
+                      child: Text(
+                        'Gen 5',
+                        style: TextStyle(color: widget.textColor, fontSize: 20),
+                      )),
+                ],
+              ),
+            ),
+            Padding(
+              padding: const EdgeInsets.all(6.0),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: <Widget>[
+                  OutlinedButton(
+                      onPressed: () {},
+                      style: OutlinedButton.styleFrom(
+                          side: BorderSide(color: widget.textColor),
+                          fixedSize: const Size(130, 80),
+                          shape: const RoundedRectangleBorder(
+                            borderRadius: BorderRadius.all(Radius.circular(14)),
+                          )),
+                      child: Text(
+                        'Gen 6',
+                        style: TextStyle(color: widget.textColor, fontSize: 20),
+                      )),
+                  const SizedBox(
+                    width: 14,
+                  ),
+                  OutlinedButton(
+                      onPressed: () {},
+                      style: OutlinedButton.styleFrom(
+                          side: BorderSide(color: widget.textColor),
+                          fixedSize: const Size(130, 80),
+                          shape: const RoundedRectangleBorder(
+                            borderRadius: BorderRadius.all(Radius.circular(14)),
+                          )),
+                      child: Text(
+                        'Gen 7',
+                        style: TextStyle(color: widget.textColor, fontSize: 20),
+                      )),
+                ],
+              ),
+            ),
+            Padding(
+              padding: const EdgeInsets.all(6.0),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: <Widget>[
+                  OutlinedButton(
+                      onPressed: () {},
+                      style: OutlinedButton.styleFrom(
+                          side: BorderSide(color: widget.textColor),
+                          fixedSize: const Size(130, 80),
+                          shape: const RoundedRectangleBorder(
+                            borderRadius: BorderRadius.all(Radius.circular(14)),
+                          )),
+                      child: Text(
+                        'Gen 8',
+                        style: TextStyle(color: widget.textColor, fontSize: 20),
+                      )),
+                  const SizedBox(
+                    width: 14,
+                  ),
+                  OutlinedButton(
+                      onPressed: () {},
+                      style: OutlinedButton.styleFrom(
+                          side: BorderSide(color: widget.textColor),
+                          fixedSize: const Size(130, 80),
+                          shape: const RoundedRectangleBorder(
+                            borderRadius: BorderRadius.all(Radius.circular(14)),
+                          )),
+                      child: Text(
+                        'Gen 9',
+                        style: TextStyle(color: widget.textColor, fontSize: 20),
+                      )),
+                ],
+              ),
+            )
           ],
         ),
       ), // This trailing comma makes auto-formatting nicer for build methods.
